@@ -52,7 +52,7 @@ function App() {
               <span className="input-group-text" id="basic-addon1">&#x2126;</span>
             </div>
           </div>
-          <button className="btn btn-block btn-primary" onClick={showSol}>Evaluate</button>
+          <button className="btn btn-block btn-primary" onClick={showSol}>Evaluate Z<sub>eq</sub></button>
           <pre className="output border mt-3 w-100" style={{ content: "sadlfj", minHeight: 50 }} id="output" >
           </pre>
           {loading && <div className="spinner-border mx-auto" role="status">
