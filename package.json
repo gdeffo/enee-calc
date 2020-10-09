@@ -10,6 +10,8 @@
     "@types/node": "^12.12.66",
     "@types/react": "^16.9.51",
     "@types/react-dom": "^16.9.8",
+    "katex": "^0.12.0",
+    "nerdamer": "^1.1.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
@@ -35,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/katex": "^0.11.0"
   }
 }
