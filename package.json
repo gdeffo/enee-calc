@@ -1,9 +1,6 @@
 {
   "name": "enee-calc",
   "version": "0.1.0",
-  "repository": {
-    "url": "https://github.com/gdeffo/enee-calc.git"
-  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -23,8 +20,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "gh-help": "gh-pages --help",
-    "publish": "gh-pages -b host -u \"gdeffo <gdeffo@terpmail.umd.edu>\" -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -44,7 +39,6 @@
     ]
   },
   "devDependencies": {
-    "@types/katex": "^0.11.0",
-    "gh-pages": "^3.1.0"
+    "@types/katex": "^0.11.0"
   }
 }
