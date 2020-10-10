@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import nerd from "nerdamer";
 import "nerdamer"
 import ktex from "katex";
